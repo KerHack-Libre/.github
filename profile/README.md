@@ -1,13 +1,13 @@
-## Welcome to GLL  👋
+## Greetings  & Welcome to Galsen Low Level 
 
-<!--
 
-**building low-level software on a not-for-profit basis.
-  We encourage sharing, building and experimenting.**
+GLL encourages sharing, building and experimenting and helps others discover what low level offers and the possibilities it presents. 
+We create low-level software to share with the local Senegalese community. 
+Our aim is to create simple, non-overloaded software at all levels. 
+Build software with a solid base. 
+Build from the ground up. 
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+Give value to programming.
+
+And so we love computing at every level. 💝
+
