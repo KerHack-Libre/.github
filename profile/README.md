@@ -1,7 +1,7 @@
-![GLL-logo&slogan](khl1.png)
+
+<img src="khl1.png" width="250"  height="" alt="khlogo"  align="center"/>
 
 # KërHack Libre
-
 
 KërHack Libre est une communauté libre et ouverte dédiée à la programmation bas niveau, à l’exploration des fondations des systèmes informatiques et à la transmission de savoirs autour du logiciel libre.
 
@@ -9,7 +9,7 @@ KërHack Libre est une communauté libre et ouverte dédiée à la programmation
 
 ---
 
-## 🌍 Qui sommes-nous ?
+## 🗺️ Qui sommes-nous ?
 
 Née au Sénégal, KërHack Libre est une initiative communautaire qui s'inscrit dans les valeurs du **logiciel libre**, de la **culture du hacking**, et de la **transmission des savoirs techniques**.
 
@@ -24,21 +24,18 @@ Née au Sénégal, KërHack Libre est une initiative communautaire qui s'inscrit
 
 ---
 
-## 🗂️ Organisation des dépôts
-
-| Projet                        | Description                                        |
-|------------------------------|----------------------------------------------------|
-| `docs/`                      | Guides pédagogiques, cours, tutos, ressources      |
-| `unix-clone/`                | Recréation d’outils Unix (cat, ls, grep, etc.)     |
-| `os-from-scratch/`           | Systèmes d'exploitation minimalistes               |
-| `embedded-labs/`             | Exercices pour systèmes embarqués                  |
-| `shell-craft/`               | Création de mini-shells et interprètes de commandes|
-| `libre-tools/`               | Outils utiles écrits en C ou Assembleur            |
-| `community/`                 | Manifeste, organisation, projets communautaires    |
+## 📂 Thèmes & Projets   : 
+ - Recréation d’outils Unix (cat, ls, grep, etc.)     
+ - Outils utiles écrits en C ou Assembleur
+ - Création de mini-shells et interprètes de commandes
+ - Systèmes d'exploitation minimalistes
+ - Exercices pour systèmes embarqués 
+ - Manifeste, organisation, projets communautaires  (voir dans community) 
+ - Guides pédagogiques, cours, tutos, ressources  (voir dans  docs) 
 
 ---
 
-## 📚 Contribuer
+## 🏗️ Contribuer
 
 1. Forkez le repo
 2. Créez une branche : `git checkout -b feature/ma-fonctionnalite`
@@ -51,12 +48,13 @@ Tous les niveaux sont bienvenus. On apprend en faisant 💪
 ---
 
 
-## 📢 Rejoignez-nous
+## 🔊 Rejoignez-nous
 
 - [GitHub Discussions](https://github.com/KerHackLibre/community/discussions)
-- [Chat (Matrix) ]  ( Dans un future Proche ) 
-- [Site officiel]( En construction )
+- [Chat (Matrix) ]  (Dans un future Proche) 
+- [Site officiel]   (En construction )
 
 ---
 
 **KërHack Libre** 
+<img src="khl1.png" width="100"  height="" alt="khlogo"  align="right"/>
