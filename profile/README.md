@@ -17,21 +17,23 @@ Née au Sénégal, KërHack Libre est une initiative communautaire qui s'inscrit
 
 ## 🚀 Nos missions
 
-- Promouvoir l'apprentissage de la **programmation bas niveau** (C, assembleur…)
+- Promouvoir l'apprentissage de la **programmation bas niveau** (C,Assembleur…)
 - Développer des **outils libres** pour mieux comprendre le fonctionnement des systèmes
 - Créer des **contenus pédagogiques accessibles** (tutos,docs,vidéos…)
 - Fédérer une **communauté active** de passionné·e·s autour du *code brut*
 
 ---
 
-## 📂 Thèmes & Projets   : 
- - Recréation d’outils Unix (cat, ls, grep, etc.)     
- - Outils utiles écrits en C ou Assembleur
- - Création de mini-shells et interprètes de commandes
- - Systèmes d'exploitation minimalistes
- - Exercices pour systèmes embarqués 
- - Manifeste, organisation, projets communautaires  (voir dans community) 
- - Guides pédagogiques, cours, tutos, ressources  (voir dans  docs) 
+## 📂 Thèmes & Projets   :  
+ - ✔️ Recréation d’outils Unix  (cat, ls, grep, etc.)     
+ - ✔️ Outils utiles écrits en C ou Assembleur
+ - ✔️ Création de mini-shells et interprètes de commandes
+ - ✔️ Systèmes d'exploitation minimalistes
+ - ✔️ Développement de pilotes sous GNU/Linux
+ - ✔️ Exercices pour systèmes embarqués
+ - ✔️ Divers (Hardware Hacking, Reverse Engineering,Emulation ...) 
+ - ✔️ Manifeste, organisation, projets communautaires  (voir dans community) 
+ - ✔️ Guides pédagogiques, cours, tutos, ressources  (voir dans  docs) 
 
 ---
 
