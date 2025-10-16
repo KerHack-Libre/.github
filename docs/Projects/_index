@@ -1,0 +1,30 @@
+***********************
+KerHack-Libre  Projects
+***********************
+
+.. toctree:: 
+   :contents: 
+
+   Base Converter  <bcv/bcv>
+
+
+KërHack Libre est une communauté ouverte dédiée à l’exploration du bas niveau, du logiciel libre, et de la culture du hacking.
+Notre mission : comprendre, construire et transmettre les fondations des systèmes informatiques, en privilégiant une approche artisanale et pédagogique.
+
+Nous écrivons du code "from scratch" pour comprendre comment tout fonctionne, des outils Unix aux systèmes d’exploitation, en passant par les microcontrôleurs.
+
+
+Ici , nous vous presentaton la list  de projects en cours et terminer
+
+
+***********************
+BaseConVerter  (bcv)
+***********************
+
+C'est un utilitaire en ligne de commande simple et rapide permettant de convertir des nombres entre différentes bases (2, 8, 10, 16). Léger, éducatif et pratique, il facilite la compréhension du système de numérisation informatique et s’intègre parfaitement dans les workflows de développement et de débogage.
+
+Avant tout Libre, il est conçu localement pour apprendre, comprendre et réutiliser. 
+bcv est un convertisseur de bases numériques avec une architecture modulaire.
+Sa librairie C locale, développée sans aucune dépendance, permet une intégration simple et directe dans d’autres projets logiciels tout en renforçant l’autonomie technologique locale.
+
+Lien du projet : https://github.com/KerHack-Libre/baseconv

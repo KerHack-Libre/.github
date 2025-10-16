@@ -1,0 +1,242 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="fr" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BaseConVerter (bcv) — Convertisseur de bases numériques &mdash; Documentation Khl-wiki 0.0.1</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=e59714d7" />
+
+  
+    <link rel="shortcut icon" href="../../_static/khl1.ico"/>
+      <script src="../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../_static/documentation_options.js?v=5cd26065"></script>
+      <script src="../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../../_static/translations.js?v=e6b791cb"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Recherche" href="../../search.html" />
+    <link rel="next" title="KerHack-Libres Releases" href="../_Changelogs/index.html" />
+    <link rel="prev" title="KerHack-Libre Projects" href="../index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            Khl-wiki
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Rechercher docs" aria-label="Rechercher docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Projects OverView</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Base Converter</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#un-outil-educatif-et-pratique-pour-comprendre-la-numerisation">Un outil éducatif et pratique pour comprendre la numérisation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#philosophie-et-objectifs-du-projet">Philosophie et Objectifs du Projet</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#un-clin-doeil-au-new-deal-technologique-du-senegal">Un clin d’œil au New-Deal Technologique du Sénégal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#installation-et-compilation">Installation et Compilation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#modes-dutilisation">Modes d’utilisation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#exemples-dusage">Exemples d’usage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-et-licence">Version et Licence</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../_Changelogs/index.html">Changelogs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../License.html">License</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Khl-wiki</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../index.html">KerHack-Libre  Projects</a></li>
+      <li class="breadcrumb-item active">BaseConVerter (bcv) — Convertisseur de bases numériques</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/Projects/bcv/bcv.rst.txt" rel="nofollow"> Afficher la source de la page</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="baseconverter-bcv-convertisseur-de-bases-numeriques">
+<h1>BaseConVerter (bcv) — Convertisseur de bases numériques<a class="headerlink" href="#baseconverter-bcv-convertisseur-de-bases-numeriques" title="Lien vers cette rubrique"></a></h1>
+<a class="reference internal image-reference" href="../../_images/bcvlogo.png"><img alt="bcv logo" class="align-left" src="../../_images/bcvlogo.png" style="width: 200px;" />
+</a>
+<section id="un-outil-educatif-et-pratique-pour-comprendre-la-numerisation">
+<h2>Un outil éducatif et pratique pour comprendre la numérisation<a class="headerlink" href="#un-outil-educatif-et-pratique-pour-comprendre-la-numerisation" title="Lien vers cette rubrique"></a></h2>
+<p><strong>bcv</strong> (BaseConverter) est un utilitaire léger en ligne de commande conçu pour convertir
+des nombres entre différentes bases numériques : <strong>binaire (2)</strong>, <strong>octale (8)</strong>,
+<strong>décimale (10)</strong> et <strong>hexadécimale (16)</strong>.</p>
+<p>Il s’agit d’un projet libre développé par <strong>KerHack-Libre</strong> dans un but <strong>éducatif</strong> :
+aider les développeurs, étudiants et passionnés à acquérir une <strong>base solide sur le système
+de numérisation informatique</strong>, tout en proposant un outil réellement utile pour le
+debuggage et l’inspection de données binaires.
+Et participer activement à la construction d’un socle de compétences numériques durable et accessible à tous.</p>
+</section>
+<section id="philosophie-et-objectifs-du-projet">
+<h2>Philosophie et Objectifs du Projet<a class="headerlink" href="#philosophie-et-objectifs-du-projet" title="Lien vers cette rubrique"></a></h2>
+<p>Le projet <strong>bcv</strong> est né d’un besoin simple : <em>comprendre et manipuler les nombres à la base du calcul informatique</em>.</p>
+<p>Au-delà de sa simplicité apparente, cet outil met en avant trois valeurs essentielles :</p>
+<ul class="simple">
+<li><p><strong>Éducation</strong> — servir de support à l’apprentissage des systèmes de numération.</p></li>
+<li><p><strong>Simplicité</strong> — un binaire léger, portable et rapide.</p></li>
+<li><p><strong>Utilité quotidienne</strong> — un compagnon pratique pour tout développeur système.</p></li>
+</ul>
+<p>&gt; « Une chose aussi basique qu’une conversion de base peut, à sa manière, aider à mieux comprendre comment pense la machine. »</p>
+</section>
+<section id="un-clin-doeil-au-new-deal-technologique-du-senegal">
+<h2>Un clin d’œil au New-Deal Technologique du Sénégal<a class="headerlink" href="#un-clin-doeil-au-new-deal-technologique-du-senegal" title="Lien vers cette rubrique"></a></h2>
+<a class="reference internal image-reference" href="../../_images/newdeal-tech.png"><img alt="New Deal Technologique du Sénégal" class="align-right" src="../../_images/newdeal-tech.png" style="width: 160px;" />
+</a>
+<p>Le projet <strong>bcv</strong> s’inscrit pleinement dans la vision du <strong>New-Deal Technologique du Sénégal</strong>,
+une initiative nationale visant à transformer la jeunesse en acteurs du numérique,
+à promouvoir la <strong>souveraineté technologique</strong> et à encourager la <strong>création d’outils locaux et libres</strong>.</p>
+<p>Dans cette optique, <strong>bcv</strong> se veut plus qu’un simple utilitaire :</p>
+<ul class="simple">
+<li><p>Il offre une <strong>expérience d’apprentissage concrète</strong> sur la base du calcul informatique.</p></li>
+<li><p>Il contribue à <strong>renforcer les compétences fondamentales</strong> en informatique et logique numérique.</p></li>
+<li><p>Il incarne la philosophie du <strong>“faire local, comprendre global”</strong>, essentielle à l’indépendance technologique.</p></li>
+<li><p>Il démontre que des outils simples, conçus localement, peuvent avoir une <strong>valeur pédagogique mondiale</strong>.</p></li>
+</ul>
+<p>Le New-Deal Technologique n’est pas qu’un programme : c’est un état d’esprit.
+Et <strong>bcv</strong> en est un humble reflet libre, éducatif, et profondément ancré dans l’innovation locale.
+Mais surtout contribuer à forger une génération dotée d’une base solide de compétences, essentielle à l’ère numérique.</p>
+</section>
+<section id="installation-et-compilation">
+<h2>Installation et Compilation<a class="headerlink" href="#installation-et-compilation" title="Lien vers cette rubrique"></a></h2>
+<p><strong>Prérequis :</strong>
+- Un compilateur <strong>C</strong> (GCC)
+- Un environnement POSIX  (Linux / BSD / macOS)</p>
+<p><strong>Compilation avec Meson  :</strong></p>
+<p><strong>Exécution :</strong></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>./bcv<span class="w"> </span>-x<span class="w"> </span><span class="m">255</span>
+0xFF
+</pre></div>
+</div>
+</section>
+<section id="modes-dutilisation">
+<h2>Modes d’utilisation<a class="headerlink" href="#modes-dutilisation" title="Lien vers cette rubrique"></a></h2>
+<p><strong>Mode Ligne de Commande :</strong></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>bcv<span class="w"> </span><span class="o">[</span>OPTION<span class="o">]</span><span class="w"> </span>&lt;NUMBER&gt;
+</pre></div>
+</div>
+<dl class="simple">
+<dt>Options disponibles :</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">-b</span></code> ou <code class="docutils literal notranslate"><span class="pre">b/&lt;nombre&gt;</span></code> → conversion en base 2</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-o</span></code> ou <code class="docutils literal notranslate"><span class="pre">o/&lt;nombre&gt;</span></code> → conversion en base 8</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-x</span></code> ou <code class="docutils literal notranslate"><span class="pre">x/&lt;nombre&gt;</span></code> → conversion en base 16</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-v</span></code> ou <code class="docutils literal notranslate"><span class="pre">v</span></code> ou <code class="docutils literal notranslate"><span class="pre">!</span></code> → affiche la version</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-h</span></code> ou <code class="docutils literal notranslate"><span class="pre">h</span></code> ou <code class="docutils literal notranslate"><span class="pre">?</span></code> → affiche l’aide intégrée</p></li>
+</ul>
+</dd>
+</dl>
+<p><strong>Mode interactif :</strong>
+Lancer sans argument :</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>./bcv
+</pre></div>
+</div>
+<p>Puis entrer des commandes comme :</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>b/42      → convertit en binaire
+o/42      → convertit en octal
+x/42      → convertit en hexadécimal
+exit      → quitte la session
+</pre></div>
+</div>
+</section>
+<section id="exemples-dusage">
+<h2>Exemples d’usage<a class="headerlink" href="#exemples-dusage" title="Lien vers cette rubrique"></a></h2>
+<p><strong>Conversion simple :</strong></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>bcv<span class="w"> </span><span class="m">12</span>
+DEC<span class="w"> </span>:<span class="w"> </span><span class="m">12</span>
+HEX<span class="w"> </span>:<span class="w"> </span>0xC
+OCT<span class="w"> </span>:<span class="w"> </span>0o14
+BIN<span class="w"> </span>:<span class="w"> </span>0b1100
+</pre></div>
+</div>
+<p><strong>Détection automatique de base :</strong></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>bcv<span class="w"> </span>0xFEED
+DEC<span class="w"> </span>:<span class="w"> </span><span class="m">65261</span>
+OCT<span class="w"> </span>:<span class="w"> </span>0o177355
+BIN<span class="w"> </span>:<span class="w"> </span>0b1111111011101101
+
+$<span class="w"> </span>bcv<span class="w"> </span>0b010011
+DEC<span class="w"> </span>:<span class="w"> </span><span class="m">19</span>
+HEX<span class="w"> </span>:<span class="w"> </span>0x13
+OCT<span class="w"> </span>:<span class="w"> </span>0o23
+</pre></div>
+</div>
+</section>
+<section id="version-et-licence">
+<h2>Version et Licence<a class="headerlink" href="#version-et-licence" title="Lien vers cette rubrique"></a></h2>
+<ul class="simple">
+<li><p><strong>Version :</strong> 1.1.4</p></li>
+<li><p><strong>Auteur :</strong> Umar Ba (&lt;<a class="reference external" href="mailto:jUmarB&#37;&#52;&#48;protonmail&#46;com">jUmarB<span>&#64;</span>protonmail<span>&#46;</span>com</a>&gt;)</p></li>
+<li><p><strong>Organisation :</strong> KerHack-Libre</p></li>
+<li><p><strong>Licence :</strong> Libre et gratuite.**.— <em>AUCUNE GARANTIE</em></p></li>
+</ul>
+<p>Vous pouvez contribuer ou suivre l’avancement du projet ici : &lt;<a class="reference external" href="https://github.com/KerHack-Libre/baseconv">https://github.com/KerHack-Libre/baseconv</a>&gt;</p>
+<p><em>Ce outil a pour but de promouvoir l’apprentissage numérique, l’outillage local et la souveraineté technologique.Et aider à bâtir, ici même, une base solide de compétences pour affronter l’ère numérique.</em></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pied de page">
+        <a href="../index.html" class="btn btn-neutral float-left" title="KerHack-Libre Projects" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+        <a href="../_Changelogs/index.html" class="btn btn-neutral float-right" title="KerHack-Libres Releases" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Droits d'auteur 2025, Umar Ba.</p>
+  </div>
+
+  Compilé avec <a href="https://www.sphinx-doc.org/">Sphinx</a> en utilisant un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">thème</a>
+    fourni par <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
